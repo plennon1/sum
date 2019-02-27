@@ -9,4 +9,5 @@ install:
   - export PYTHONPATH=$PYTHONPATH:$(pwd)/test
 # command to run tests
 script:
-  - python test/SumTest.py
+#worked  - python test/SumTest.py
+         - python -m unittest discover -s test/ -p "*Test.py"
