@@ -4,6 +4,7 @@ from src.Sum import Sum
 class MyTestCase(unittest.TestCase):
     def test_something3(self):
         mySum = Sum()
+
         mySum.myprint()
         self.assertEqual(True, True)
 #comment
